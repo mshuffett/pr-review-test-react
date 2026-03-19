@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import ContactForm from "./components/ContactForm";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <main>
         <h2>Welcome</h2>
         <p>This is a simple demo application for testing PR reviews.</p>
+        <ContactForm />
       </main>
     </div>
   );
